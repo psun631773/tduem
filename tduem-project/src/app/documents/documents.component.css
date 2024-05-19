@@ -1,0 +1,51 @@
+.documents-component {
+    height: 500px;
+    text-align: center;
+    text-align-last: center;
+    min-height: auto;
+    padding: 5rem 0px;
+}
+
+.documents-title {
+    font-size: 50px;
+}
+
+.documents-content {
+    color: rgb(105, 105, 105);
+    font-size: 30px;
+    margin-top: 4rem;
+    word-break: break-word;
+    margin-bottom: 20px;
+}
+
+.documents-btn {
+    background-color: #8B0000;
+    /* Dark Red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+
+.documents-btn:hover {
+    background-color: #A52A2A;
+    /* Lighter Red */
+}
+
+.documents-bottom {
+    text-align: center;
+    text-align-last: center;
+    min-height: auto;
+    padding: 5rem 0px;
+    background-image: url(../../assets/b2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(166, 0, 0);
+    color: white;
+}

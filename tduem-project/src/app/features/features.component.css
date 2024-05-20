@@ -1,3 +1,34 @@
 .features-component {
-    height: 500px;
+    background-image: url('E:/tduem/tduem-project/src/assets/feature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding-left: 20%; /* Adjust padding as needed */
+    color: white;
+    text-align: left; /* Align text to the left */
+}
+
+.features-content {
+    max-width: 65%;
+    /* Ensure the content stays on the left half */
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.content {
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+
+.content {
+    white-space: pre-line;
+    /* Preserves line breaks */
 }

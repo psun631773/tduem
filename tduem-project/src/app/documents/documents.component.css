@@ -1,5 +1,5 @@
 .documents-component {
-    height: 500px;
+    height: 747.64px;
     text-align: center;
     text-align-last: center;
     min-height: auto;
@@ -11,6 +11,8 @@
 }
 
 .documents-content {
+    margin-left: 10%;
+    margin-right: 10%;
     color: rgb(105, 105, 105);
     font-size: 30px;
     margin-top: 4rem;
@@ -38,6 +40,7 @@
 }
 
 .documents-bottom {
+
     text-align: center;
     text-align-last: center;
     min-height: auto;

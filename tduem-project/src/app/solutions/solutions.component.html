@@ -1,22 +1,66 @@
 <div class="solution-component"
-    style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; text-align: center; background-color: #f5f5f5;">
-    <h1 class="marginRow" style="color: rgb(172, 0, 0); font-size: 40px; margin-bottom: 20px;">AI Driven, Secured by
-        Block Chain, Cost Effective Asset Management</h1>
+    style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 1000px; text-align: center; background-color: #f5f5f5;">
+    <div style="margin-top: 80px;"></div>
+    <h1 *ngIf="isVisible" @slideInLeft class="marginRow" style="color: rgb(28, 25, 25); font-size: 40px; margin-bottom: 20px;">AI Driven</h1>
+    <h1 *ngIf="isVisible" @slideInLeft class="marginRow" style="color: rgb(28, 25, 25); font-size: 40px; margin-bottom: 20px;">Secured by
+        Block Chain</h1>
+    <h1 *ngIf="isVisible" @slideInLeft class="marginRow" style="color: rgb(28, 25, 25); font-size: 40px; margin-bottom: 20px;"> Cost Effective Asset
+        Management</h1>
     <div class="solution-mid" style="height: 30px;"></div>
     <div class="solution-content"
-        style="display: flex;justify-content: space-evenly;
-        align-items: center; grid-template-columns: repeat(4, 1fr); gap: 10px; height: 200px; width: 100%; max-width: 800px;">
-        <div
-            style="height:200px;width: 200px;border-radius: 10px;background-color: lightgray; display: flex; align-items: center; justify-content: center;">
-            Asset and Lifecycle Management</div>
-        <div
-            style="height:200px;width: 200px;border-radius: 10px;background-color: lightgray; display: flex; align-items: center; justify-content: center;">
-            Simplified Mobility Management</div>
-        <div
-            style="height:200px;width: 200px;border-radius: 10px;background-color: lightgray; display: flex; align-items: center; justify-content: center;">
-            Dedicated Device Management</div>
-        <div
-            style="height:200px;width: 200px;border-radius: 10px;background-color: lightgray; display: flex; align-items: center; justify-content: center;">
-            Real-time Support</div>
+        style="display: flex; justify-content: space-evenly; align-items: center; gap: 10px; width: 80%;">
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-1.png" alt="Simplified Mobility Management"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Simplified
+                Mobility Management</span>
+        </div>
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-2.png" alt="Dedicated Device Management"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Dedicated Device
+                Management</span>
+        </div>
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-3.png" alt="Real-time Support"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Real-time
+                Support</span>
+        </div>
+
+    </div>
+    <div class="solution-content"
+        style="display: flex; justify-content: space-evenly; align-items: center; gap: 10px; width: 80%;">
+
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-4.png" alt="Simplified Mobility Management"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Simplified
+                Mobility Management</span>
+        </div>
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-5.png" alt="Dedicated Device Management"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Dedicated Device
+                Management</span>
+        </div>
+        <div class="image-container"
+            style="flex: 1; height: 300px; border-radius: 10px; background-color: lightgray; display: flex; align-items: center; justify-content: center; position: relative; margin: 10px; overflow: hidden;">
+            <img src="../../assets/phone-pic-6.png" alt="Real-time Support"
+                style="position: absolute; height: 100%; width: 100%; object-fit: cover; border-radius: 10px; transition: transform 0.3s;">
+            <span style="position: relative; z-index: 1; color: white; text-shadow: 1px 1px 2px black;">Real-time
+                Support</span>
+        </div>
     </div>
 </div>
+
+<style>
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+</style>

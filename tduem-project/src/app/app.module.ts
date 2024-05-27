@@ -10,7 +10,7 @@ import { PlatformsComponent } from './platforms/platforms.component';
 import { PartnersComponent } from './partners/partners.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

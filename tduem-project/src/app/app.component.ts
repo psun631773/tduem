@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { SolutionsComponent } from './solutions/solutions.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'tduem-project';
+  @ViewChild(SolutionsComponent) solutionsComponent!: SolutionsComponent;
+
+  scrollToSolutions() {
+    this.solutionsComponent.scrollToSolutions();
+  }
 }
+
+
+
+
+
+
+
+
+

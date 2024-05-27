@@ -18,8 +18,42 @@ nav a {
     padding: 0px;
     /* offset for fixed navbar */
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scroll-behavior: smooth;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.navbar-brand .lines {
+    display: flex;
+    margin-left: 10px;
+}
+
+.navbar-brand .line {
+    width: 4px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+.navbar-brand .line:nth-child(1) {
+    background-color: blue;
+}
+
+.navbar-brand .line:nth-child(2) {
+    background-color: lightblue;
+}
+
+.navbar-brand .line:nth-child(3) {
+    background-color: skyblue;
 }
 
 section {
